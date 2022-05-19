@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"], // Funcionalidades de dom / html. ex: InputHtmlAttributes
+    "jsx": "react-jsx",                       // Estamos utilizando jsx -> html dentro do typescript
+    "moduleResolution": "node",                       
+    "resolveJsonModule": true,                // Possibilidade de importar arquivo json       
+    "allowJs": true,                          // Tanto arquivo js como ts
+    "noEmit": true,                           // Nao emitir em codigo em build  
+    "isolatedModules": true,                          
+    "allowSyntheticDefaultImports": true,             
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,            
+    "strict": true,                                      
+    "skipLibCheck": true                                 
+  },
+  "include": ["src"]  // Onde o codigo de nossa aplicacao vai estar
+}
